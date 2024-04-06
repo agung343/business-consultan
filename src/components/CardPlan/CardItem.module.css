@@ -1,0 +1,67 @@
+.card {
+    padding: 2rem;
+    width: 30%
+}
+
+.bestCard {
+    border: 12px solid var(--green-primary);
+}
+
+.cardHeader {
+    font-family: 'Titillium Web', sans-serif;
+    gap: 12px;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: var(--cyan-primary);
+}
+
+.description {
+    font-family: inherit;
+    font-size: 18px;
+    text-wrap: wrap;
+    text-align: center;
+    font-style: italic;
+    text-wrap: wrap;
+}
+
+.price {
+    font-family: inherit;
+    font-size: 24px;
+    text-align: center;
+    color: red;
+}
+
+.monthly {
+    color: var(--cyan-primary);
+    font-weight: bold;
+}
+
+.cardContent ul {
+    font-family: 'Titillium Web', sans-serif;
+    gap: 12px;
+}
+
+.cardContent li {
+    list-style: circle;
+    font-family: inherit;
+    font-size: 18px;
+    color: var(--cyan-primary);
+    text-align: center;
+}
+
+.cardFooter {
+    justify-content: center;
+}
+
+.cardFooter button {
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+

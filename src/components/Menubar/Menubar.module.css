@@ -1,0 +1,44 @@
+.headerLogo {
+    display: flex;
+    padding: 1rem;
+    margin: 0 auto;
+    vertical-align: center;
+}
+
+.headerLogo h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    padding: 1rem 0;
+}
+
+.menuLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.menuLinks ul {
+    display: flex;
+    gap: 2rem;
+    letter-spacing: 0.12rem;
+}
+
+.menuLinks li {
+    list-style: none;
+}
+
+.link {
+    font-family: inherit;
+    font-size: 1.25rem;
+    padding: 0.5rem 1.25rem;
+    border-radius: 10px;
+}
+
+.active {
+    background: #727070;
+    color: white;
+}

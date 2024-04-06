@@ -1,0 +1,36 @@
+.input {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.newsletter {
+    width: 100%;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    background: rgb(221, 220, 220);
+    border: 1px solid var(--cyan-primary);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    padding: 1rem 1.25rem;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.newsletter::placeholder {
+    font-size: 1rem;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.btn {
+    background: var(--cyan-primary);
+    font-size: 1.25rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.btn:hover {
+    background-color: var(--green-primary);
+    font-weight: bold;
+}

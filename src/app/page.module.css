@@ -1,0 +1,98 @@
+.landing {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: row;
+    row-gap: 50px;
+    margin-bottom: 2.5rem;
+}
+
+.landingText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap: 1.75rem;
+}
+
+.landingText h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.15rem;   
+}
+
+.landingText p {
+    font-family: inherit;
+    font-size: 20px;
+    text-align: left;
+    text-wrap: wrap;
+    color: var(--cyan-primary);
+}
+
+.landingImage {
+    position: relative;
+    flex: 1
+}
+
+.cta {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.btn:first-child {
+    background: var(--cyan-primary);
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.15rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.btn:last-child {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.15rem;
+    border-radius: 8px;
+    border: none;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.btn:hover:first-child{
+    background: var(--green-primary);
+    font-weight: bold;
+}
+
+.btn:hover:last-child {
+    text-decoration-line: underline;
+}
+
+.serviceHeading {
+    margin-bottom: 2rem;
+}
+
+.serviceHeading h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 2rem;
+}
+
+.newsletter {
+    margin: 2.5rem 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #a534d1;
+    padding: 2rem;
+}
+
+.newsletter h2 {
+    font-family: inherit;
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
